@@ -173,32 +173,32 @@ static char c000000[]                    = "#000000"; // placeholder value
 static char normfgcolor[]                = "#a89984";
 static char normbgcolor[]                = "#282828";
 static char normbordercolor[]            = "#928374";
-static char normfloatcolor[]             = "#db8fd9";
+static char normfloatcolor[]             = "#000000";
 
 static char selfgcolor[]                 = "#282828";
 static char selbgcolor[]                 = "#d65d03";
 static char selbordercolor[]             = "#edd8bb";
-static char selfloatcolor[]              = "#005577";
+static char selfloatcolor[]              = "#000000";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#222222";
 static char titlenormbordercolor[]       = "#444444";
-static char titlenormfloatcolor[]        = "#db8fd9";
+static char titlenormfloatcolor[]        = "#000000";
 
 static char titleselfgcolor[]            = "#b8bb26";
 static char titleselbgcolor[]            = "#3A3A3A";
 static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselfloatcolor[]         = "#000000";
 
 static char tagsnormfgcolor[]            = "#bbbbbb";
 static char tagsnormbgcolor[]            = "#222222";
 static char tagsnormbordercolor[]        = "#444444";
-static char tagsnormfloatcolor[]         = "#db8fd9";
+static char tagsnormfloatcolor[]         = "#000000";
 
 static char tagsselfgcolor[]             = "#b8bb26";
 static char tagsselbgcolor[]             = "#3A3A3A";
 static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselfloatcolor[]          = "#000000";
 
 static char hidnormfgcolor[]             = "#005577";
 static char hidselfgcolor[]              = "#227799";
@@ -208,7 +208,7 @@ static char hidselbgcolor[]              = "#222222";
 static char urgfgcolor[]                 = "#a89984";
 static char urgbgcolor[]                 = "#cc241d";
 static char urgbordercolor[]             = "#b8bb26";
-static char urgfloatcolor[]              = "#db8fd9";
+static char urgfloatcolor[]              = "#000000";
 
 #if RENAMED_SCRATCHPADS_PATCH
 static char scratchselfgcolor[]          = "#FFF7D4";
