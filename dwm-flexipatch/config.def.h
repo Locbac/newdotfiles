@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-#include <X11/XF86keysym.h>
+/* #include <X11/XF86keysym.h> */
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
 static const unsigned int borderpx       = 0;   /* border pixel of windows */
@@ -898,8 +898,8 @@ static const Key on_empty_keys[] = {
 
 static const Key keys[] = {
 	/* modifier                     key            function                argument */
-	{ 0,                       XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} },
-	{ 0,                       XF86XK_MonBrightnessDown,     spawn,             {.v = brightness[1]} },
+	/* { 0,                       XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} }, */
+	/* { 0,                       XF86XK_MonBrightnessDown,     spawn,             {.v = brightness[1]} }, */
 	#if KEYMODES_PATCH
 	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
 	#endif // KEYMODES_PATCH
