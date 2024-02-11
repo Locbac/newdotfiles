@@ -250,7 +250,7 @@
  * when including this patch.
  * https://dwm.suckless.org/patches/alpha/
  */
-#define BAR_ALPHA_PATCH 0
+#define BAR_ALPHA_PATCH 1
 
 /* This patch introduces alternative tags which can be switched on the fly for the
  * sole purpose of providing visual aid.
@@ -401,7 +401,7 @@
 /* This patch draws and updates the statusbar on all monitors.
  * https://dwm.suckless.org/patches/statusallmons/
  */
-#define BAR_STATUSALLMONS_PATCH 0
+#define BAR_STATUSALLMONS_PATCH 1
 
 /* This patch enables colored text in the status bar. It changes the way colors are defined
  * in config.h allowing multiple color combinations for use in the status script.
@@ -808,7 +808,7 @@
 /* This patch allows you to move clients around in the stack and swap them with the master.
  * https://dwm.suckless.org/patches/movestack/
  */
-#define MOVESTACK_PATCH 0
+#define MOVESTACK_PATCH 1
 
 /* This patch allows you to change the names of tags during runtime.
  *
@@ -897,7 +897,7 @@
  * monitor (default).
  * https://dwm.suckless.org/patches/pertag/
  */
-#define PERTAG_PATCH 0
+#define PERTAG_PATCH 1
 
 /* Option to enable gaps on a per tag basis rather than globally.
  * Depends on both pertag and vanitygaps patches being enabled.
@@ -1378,7 +1378,7 @@
  * when the mouse cursor is (a) on a different screen or (b) on top of a different window.
  * https://dwm.suckless.org/patches/warp/
  */
-#define WARP_PATCH 0
+#define WARP_PATCH 1
 
 /* Sometimes a single application opens different windows depending on the task
  * at hand and this is often reflected in the WM_WINDOW_ROLE(STRING) x property.
