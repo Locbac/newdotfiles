@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-
+#include <X11/XF86keysym.h>
 /* appearance */
 #if ROUNDED_CORNERS_PATCH
 static const unsigned int borderpx       = 0;   /* border pixel of windows */
@@ -875,6 +875,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NULL };
 static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL };
 static const char *nautiluscmd[] = {"nautilus", "-w", NULL };
+static const char *brightness[2][] = {{"xbacklight", "-inc", "5%", NULL},{"xbacklight", "-dec", "5%", NULL}};
 
 #if BAR_STATUSCMD_PATCH
 #if BAR_DWMBLOCKS_PATCH
@@ -906,6 +907,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_r,          spawn,                  {.v = rofishowcmd} },
 	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
+	{ 0,                       XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} },
+	{ 0,                       XF86XK_MonBrightnessDown,     spawn,             {.v = brightness[1]} },
 	#if KEYMODES_PATCH
 	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
 	#endif // KEYMODES_PATCH
