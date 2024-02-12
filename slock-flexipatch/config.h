@@ -22,7 +22,7 @@ static const char *colorname[NUMCOLS] = {
 
 #if MESSAGE_PATCH || COLOR_MESSAGE_PATCH
 /* default message */
-static const char * message = "Suckless: Software that sucks less.";
+static const char * message = "Locked: Enter a Password";
 
 /* text color */
 static const char * text_color = "#ffffff";
