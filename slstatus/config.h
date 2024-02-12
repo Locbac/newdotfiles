@@ -66,10 +66,12 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
   { wifi_essid, " | Wifi: %s",        "wlp59s0" },
-  { battery_perc, " | Battery: %s%%",        "BAT0" },
-  { battery_remaining, " | Battery Left: %s",        "BAT0" },
+  { battery_perc, " | Bat: %s%%",        "BAT0" },
+  { battery_remaining, " | Bat Left: %s",        "BAT0" },
+  /* VOLUME */
+  { run_command, " | VOL: [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
+  /* Bluetooth */
+  { run_command, " | BT: [%s]", "bluetoothctl devices | cut -d' ' -f3-" },
   /* { vol_perc, " | Volume: %s%%",        "/dev/snd/controlC1" }, */
 	{ datetime, " | %s",           "%F %T" },
-  /* VOLUME */
-  { run_command, " | [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
 };
