@@ -875,6 +875,7 @@ static const char *termcmd[]  = { "st", "-e", "zsh", NULL };
 static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NULL };
 static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL };
 static const char *nautiluscmd[] = {"nautilus", "-w", NULL };
+static const char *slockcmd[] = {"slock", NULL };
 /* static const char *brightness[][] = {{"xbacklight", "-inc", "5%", NULL},{"xbacklight", "-dec", "5%", NULL}, NULL}; */
 
 #if BAR_STATUSCMD_PATCH
@@ -908,6 +909,7 @@ static const Key keys[] = {
 	{ Mod1Mask,                     XK_space,      spawn,                  {.v = rofishowcmd} },
 	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
+	{ MODKEY|ShiftMask,             XK_l,          spawn,                  {.v = slockcmd} },
 	/* { 0,                            XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} }, */
 	/* { 0,                            XF86XK_MonBrightnessDown,     spawn,             {.v = brightness[1]} }, */
 	#if KEYMODES_PATCH
