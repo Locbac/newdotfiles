@@ -32,3 +32,6 @@ copyq &
 
 # Xinput
 /home/amon/proj/xinput.sh
+
+# syncthing
+syncthing &
