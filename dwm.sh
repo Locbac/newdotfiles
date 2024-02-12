@@ -34,4 +34,4 @@ copyq &
 /home/amon/proj/xinput.sh
 
 # syncthing
-syncthing &
+# syncthing &
