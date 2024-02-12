@@ -70,4 +70,6 @@ static const struct arg args[] = {
   { battery_remaining, " | Battery Left: %s",        "BAT0" },
   /* { vol_perc, " | Volume: %s%%",        "/dev/snd/controlC1" }, */
 	{ datetime, " | %s",           "%F %T" },
+  /* VOLUME */
+  { run_command, " | [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
 };
