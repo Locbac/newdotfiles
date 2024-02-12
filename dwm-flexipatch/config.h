@@ -905,6 +905,7 @@ static const Key keys[] = {
 	/* modifier                     key            function                argument */
   /* LOCBAC */
 	{ MODKEY,                       XK_r,          spawn,                  {.v = rofishowcmd} },
+	{ Mod1Mask,                     XK_space,      spawn,                  {.v = rofishowcmd} },
 	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
 	/* { 0,                            XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} }, */
