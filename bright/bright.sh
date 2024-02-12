@@ -43,7 +43,7 @@
 
 MAXB_FILE="/sys/class/backlight/intel_backlight/max_brightness"
 B_FILE="/sys/class/backlight/intel_backlight/brightness"
-DIVISOR=20 # Adjust in increments of 20%
+DIVISOR=10 # Adjust in increments of 10%
 
 if [ -z "$1" ]; then
 	echo "Usage: $0 up | down"
