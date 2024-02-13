@@ -66,14 +66,14 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
   /* Wifi */
-  { wifi_essid, " |  [%s]",        "wlp59s0" },
+  { wifi_essid, " [%s]",        "wlp59s0" },
   /* Bluetooth */
-  { run_command, " |  [%s]", "bluetoothctl devices | cut -d' ' -f3-" },
+  { run_command, "  [%s]", "bluetoothctl devices | cut -d' ' -f3-" },
   /* Battery */
-  { battery_perc, " |  [%s%%]",        "BAT0" },
+  { battery_perc, "  [%s%%]",        "BAT0" },
   { battery_remaining, " [%s]",        "BAT0" },
   /* VOLUME */
-  { run_command, " |  [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
+  { run_command, "  [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
   /* { vol_perc, " | Volume: %s%%",        "/dev/snd/controlC1" }, */
-	{ datetime, " | %s",           " [%I:%M %p]  [%Y-%m-%d]"},
+	{ datetime, " %s",           " [%I:%M %p]  [%Y-%m-%d]"},
 };
