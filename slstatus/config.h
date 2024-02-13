@@ -71,7 +71,7 @@ static const struct arg args[] = {
   { run_command, "  [%s]", "bluetoothctl devices | cut -d' ' -f3-" },
   /* Battery */
   { battery_perc, "  [%s%%]",        "BAT0" },
-  { battery_remaining, " [%s]",        "BAT0" },
+  { battery_remaining, "[%s]",        "BAT0" },
   /* VOLUME */
   { run_command, "  [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
   { run_command, "  [%s]", "output=$(cat /sys/class/backlight/intel_backlight/brightness); max_value=120000; percentage=$((output * 100 / max_value)); echo $percentage" },
