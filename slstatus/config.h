@@ -73,5 +73,5 @@ static const struct arg args[] = {
   /* Bluetooth */
   { run_command, " | BT: [%s]", "bluetoothctl devices | cut -d' ' -f3-" },
   /* { vol_perc, " | Volume: %s%%",        "/dev/snd/controlC1" }, */
-	{ datetime, " | %s",           "%F %T" },
+	{ datetime, " | %s",           "[%I:%M %p] [ %Y-%m-%d]"},
 };
