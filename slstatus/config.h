@@ -72,8 +72,9 @@ static const struct arg args[] = {
   /* Battery */
   { battery_perc, "  [%s%%]",        "BAT0" },
   { battery_remaining, "[%s]",        "BAT0" },
-  /* VOLUME */
+  /* Volume */
   { run_command, "  [%s]", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
+  /* brightness */
   { run_command, "  [%s]", "output=$(cat /sys/class/backlight/intel_backlight/brightness); max_value=120000; percentage=$((output * 100 / max_value)); echo $percentage" },
   /* { vol_perc, " | Volume: %s%%",        "/dev/snd/controlC1" }, */
 	{ datetime, " %s",           " [%I:%M %p]  [%Y-%m-%d]"},
