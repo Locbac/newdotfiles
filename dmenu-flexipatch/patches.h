@@ -11,7 +11,7 @@
  * is to have dmenu appear on top of the bar when using said patch in dwm.
  * https://github.com/bakkeby/patches/wiki/barpadding
  */
-#define BARPADDING_PATCH 0
+#define BARPADDING_PATCH 1
 
 /* This patch adds a border around the dmenu window. It is intended to be used with the center
  * or xyw patches, to make the menu stand out from similarly coloured windows.
@@ -167,7 +167,7 @@
  * glyphs are used. This is for systems that do not have an updated version of the Xft library
  * (or generally prefer monochrome fonts).
  */
-#define NO_COLOR_EMOJI_PATCH 0
+#define NO_COLOR_EMOJI_PATCH 1
 
 /* Adds the -S option to disable sorting menu items after matching. Useful, for example, when menu
  * items are sorted by their frequency of use (using an external cache) and the most frequently
