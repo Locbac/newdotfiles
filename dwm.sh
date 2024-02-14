@@ -1,28 +1,37 @@
 #!/bin/bash
 
 # Launch dwm
-dwm &
+if pgrep -x dwm >/dev/null; then
+else
+	dwm &
+fi
 
 # Wait for dwm to start
 sleep 2
 
 # Picom
+sudo pkill picom
 picom &
 
 # SlStatus
 # slstatus &
 
 # DWMBLOCKS
-dwmblocks &
+if pgrep -x dwmblocks >/dev/null; then
+  sudo pkill dwmblocks
+  dwmblocks &
+else
+  dwmblocks &
+if
 
 # Execute layout.sh script
-/home/amon/.screenlayout/layout.sh
+$HOME/.screenlayout/layout.sh
 
 # Wait for layout to finish
-sleep 0.5
+sleep 1
 
 # Wallpaper
-feh --bg-fill /home/amon/proj/wallpapers/macos-mojave-night-lightened-r.jpg
+feh --bg-fill $HOME/proj/wallpapers/macos-mojave-night-lightened-r.jpg
 
 # lx appearance
 lxappearance &
@@ -31,10 +40,13 @@ lxappearance &
 sudo tlp start
 
 # clipboard manager
-copyq &
+if [[ pgrep -x copyq >/dev/null ]]; then
+else
+  copyq &
+fi
 
 # Xinput
-/home/amon/proj/xinput.sh
+$HOME/proj/xinput.sh
 
 # syncthing
 # syncthing &
