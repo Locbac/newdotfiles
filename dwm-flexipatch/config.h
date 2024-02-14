@@ -877,7 +877,7 @@ static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NUL
 static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL };
 static const char *nautiluscmd[] = {"nautilus", "-w", NULL };
 static const char *slockcmd[] = {"slock", NULL };
-static const char *grayscalecmd[][] = {{"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-g", NULL}, {"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-c", NULL}, NULL}
+/* static const char *grayscalecmd[][] = {{"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-g", NULL}, {"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-c", NULL}, NULL} */
 /* static const char *mutecmd[] = {"amixer", "-q", "set", "Master", "toggle", NULL }; */
 /* static const char *volupcmd[] = {"amixer", "-q", "set", "Master", "5%+", "unmute", NULL }; */
 /* static const char *voldowncmd[] = {"amixer", "-q", "set", "Master", "5%-", "unmute", NULL }; */
@@ -915,8 +915,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
 	{ MODKEY|ShiftMask,             XK_l,          spawn,                  {.v = slockcmd} },
-	{ Mod4Mask|ControlMask,         XK_g,          spawn,                  {.v = grayscalecmd[0]} },
-	{ Mod4Mask|ControlMask,         XK_c,          spawn,                  {.v = grayscalecmd[1]} },
+	{ Mod4Mask|ControlMask,         XK_g,          spawn,                  SHCMD("/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh -g")},
+	{ Mod4Mask|ControlMask,         XK_c,          spawn,                  SHCMD("/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh -c") },
 	/* { 0,                            XF86XK_AudioMute,          spawn,      {.v = mutecmd} }, */
 	{ 0,                            XF86XK_AudioMute,          spawn,      SHCMD("amixer -q set Master toggle; pkill -RTMIN+10 dwmblocks") },
 	/* { 0,                            XF86XK_AudioLowerVolume,          spawn,      {.v = voldowncmd} }, */
