@@ -10,7 +10,10 @@ sleep 2
 picom &
 
 # SlStatus
-slstatus &
+# slstatus &
+
+# DWMBLOCKS
+dwmblocks &
 
 # Execute layout.sh script
 /home/amon/.screenlayout/layout.sh
