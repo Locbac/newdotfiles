@@ -38,3 +38,6 @@ $HOME/proj/xinput.sh
 
 # syncthing
 # syncthing &
+
+# grayscale
+$HOME/proj/grayscale-desktop/toggle-monitor-grayscale.sh -g
