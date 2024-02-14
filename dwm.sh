@@ -22,7 +22,7 @@ $HOME/.screenlayout/layout.sh
 sleep 0.5
 
 # Wallpaper
-feh --bg-fill $HOME/proj/wallpapers/macos-mojave-night-lightened-r.jpg
+feh --bg-fill $HOME/proj/wallpapers/grayscale-macos-mojave-night-lightened-r.jpg
 
 # lx appearance
 lxappearance &
