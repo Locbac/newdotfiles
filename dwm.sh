@@ -2,6 +2,7 @@
 
 # Launch dwm
 if pgrep -x dwm >/dev/null; then
+  echo "dwm running"
 else
 	dwm &
 fi
@@ -41,6 +42,7 @@ sudo tlp start
 
 # clipboard manager
 if [[ pgrep -x copyq >/dev/null ]]; then
+  echo "copyq running"
 else
   copyq &
 fi
