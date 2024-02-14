@@ -99,3 +99,5 @@ else
 	fi
 	echo "$NEWB" >$B_FILE
 fi
+
+pkill -RTMIN+11 dwmblocks
