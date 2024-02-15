@@ -918,11 +918,11 @@ static const Key keys[] = {
 	{ Mod4Mask|ControlMask,         XK_g,          spawn,                  SHCMD("/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh -g")},
 	{ Mod4Mask|ControlMask,         XK_c,          spawn,                  SHCMD("/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh -c") },
 	/* { 0,                            XF86XK_AudioMute,          spawn,      {.v = mutecmd} }, */
-	{ 0,                            XF86XK_AudioMute,          spawn,      SHCMD("amixer -q set Master toggle; pkill -RTMIN+10 dwmblocks") },
+	{ 0,                            XF86XK_AudioMute,          spawn,      SHCMD("/home/amon/proj/dwmblocks/scripts/volume-mod.sh tog") },
 	/* { 0,                            XF86XK_AudioLowerVolume,          spawn,      {.v = voldowncmd} }, */
-	{ 0,                            XF86XK_AudioLowerVolume,          spawn,      SHCMD("amixer -q set Master 5%- unmute; pkill -RTMIN+10 dwmblocks") },
+	{ 0,                            XF86XK_AudioLowerVolume,          spawn,      SHCMD("/home/amon/proj/dwmblocks/scripts/volume-mod.sh 5%-") },
 	/* { 0,                            XF86XK_AudioRaiseVolume,          spawn,      {.v = volupcmd} }, */
-	{ 0,                            XF86XK_AudioRaiseVolume,          spawn,      SHCMD("amixer -q set Master 5%+ unmute; pkill -RTMIN+10 dwmblocks") },
+	{ 0,                            XF86XK_AudioRaiseVolume,          spawn,      SHCMD("/home/amon/proj/dwmblocks/scripts/volume-mod.sh 5%+") },
 	/* { 0,                            XF86XK_MonBrightnessUp,     spawn,             {.v = brightness[0]} }, */
 	/* { 0,                            XF86XK_MonBrightnessDown,     spawn,             {.v = brightness[1]} }, */
 	#if KEYMODES_PATCH
