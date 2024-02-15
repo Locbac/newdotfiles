@@ -96,4 +96,5 @@ else
 
 fi
 
+sleep 5
 pkill -RTMIN+12 dwmblocks
