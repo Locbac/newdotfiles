@@ -22,7 +22,7 @@ $HOME/.screenlayout/layout.sh
 sleep 0.5
 
 # Wallpaper
-feh --bg-fill $HOME/proj/wallpapers/grayscale-macos-mojave-night-lightened-r.jpg
+feh --bg-fill $HOME/wallpapers/grayscale-macos-mojave-night-lightened-r.jpg
 
 # lx appearance
 lxappearance &
@@ -34,10 +34,10 @@ sudo tlp start
 copyq &
 
 # Xinput
-$HOME/proj/xinput.sh
+$HOME/proj/home/xinput.sh
 
 # syncthing
 # syncthing &
 
 # grayscale
-$HOME/proj/grayscale-desktop/toggle-monitor-grayscale.sh -g
+$HOME/proj/home/clones/grayscale-desktop/toggle-monitor-grayscale.sh -g
