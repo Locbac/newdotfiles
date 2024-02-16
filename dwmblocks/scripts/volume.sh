@@ -1,10 +1,22 @@
 #!/bin/bash
 # amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'
-output=$(amixer sget Master)
 # percentage=$(echo $(echo "$output" | awk -F'[][]' '/Playback/ {print $2}') | sed '1,2d;$d')
-percentage=$(amixer sget Master | awk -F'[][]' '/Playback/ { printf "%s", $2 }' | tr -d '\n')
-if [[ $output == *"[off]"* ]]; then
-	echo "Mute"
+if amixer -c 1 info >/dev/null 2>&1; then
+	# Card 1 exists
+	output=$(amixer -c 1 sget 'Targus Audio')
+	percentage=$(amixer -c 1 sget 'Targus Audio' | grep "Front Left" | awk -F'[][]' '/Playback/ { printf "%s", $2 }' | tr -d '\n')
+	if [[ $output == *"[off]"* ]]; then
+		echo "Mute"
+	else
+		echo "$percentage"
+	fi
 else
-	echo "$percentage"
+	# Card 1 doesn't exist
+	output=$(amixer -c 0 sget Master)
+	percentage=$(amixer sget Master | awk -F'[][]' '/Playback/ { printf "%s", $2 }' | tr -d '\n')
+	if [[ $output == *"[off]"* ]]; then
+		echo "Mute"
+	else
+		echo "$percentage"
+	fi
 fi
