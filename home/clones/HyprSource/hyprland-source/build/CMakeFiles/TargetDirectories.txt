@@ -1,0 +1,5 @@
+/home/amon/proj/home/clones/HyprSource/hyprland-source/build/CMakeFiles/Hyprland.dir
+/home/amon/proj/home/clones/HyprSource/hyprland-source/build/CMakeFiles/package.dir
+/home/amon/proj/home/clones/HyprSource/hyprland-source/build/CMakeFiles/package_source.dir
+/home/amon/proj/home/clones/HyprSource/hyprland-source/build/CMakeFiles/edit_cache.dir
+/home/amon/proj/home/clones/HyprSource/hyprland-source/build/CMakeFiles/rebuild_cache.dir
