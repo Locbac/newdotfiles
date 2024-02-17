@@ -125,6 +125,7 @@ alias nvidia-enable='sudo virsh nodedev-reattach pci_0000_01_00_0 && echo "GPU r
 alias nvidia-disable='sudo rmmod nvidia_modeset nvidia_uvm nvidia && echo "NVIDIA drivers removed" && sudo modprobe -i vfio_pci vfio_pci_core vfio_iommu_type1 && echo "VFIO drivers added" && sudo virsh nodedev-detach pci_0000_01_00_0 && echo "GPU detached (now vfio ready)" && echo "COMPLETED!"'
 alias looking-glass='looking-glass-client -m 97 -c DXGI'
 alias rmallgitdir='rm -rf .git*'
+alias r='ranger'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
