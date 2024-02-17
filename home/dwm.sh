@@ -7,7 +7,8 @@ dwm &
 sleep 2
 
 # Picom
-picom --experimental-backends &
+# picom --experimental-backends &
+picom &
 
 # SlStatus
 # slstatus &
