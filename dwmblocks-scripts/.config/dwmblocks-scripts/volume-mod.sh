@@ -11,6 +11,8 @@ if amixer -c 1 info >/dev/null 2>&1; then
 		amixer -c 1 sset 'Targus Audio' "$1"
 	fi
 	pkill -RTMIN+10 dwmblocks
+	# percentage=$(amixer -c 1 sget 'Targus Audio' | grep "Front Left" | awk -F'[][]' '/Playback/ { printf "%s", $2 }' | tr -d '\n')
+	# notify-send "Volume:" $percentage
 else
 	# Card 1 doesn't exist
 	if [[ "$1" == "tog" ]]; then
