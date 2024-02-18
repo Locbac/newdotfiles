@@ -32,7 +32,7 @@ static const int smartgaps_fact          = 1;   /* gap factor when there is only
 #endif // VANITYGAPS_PATCH
 #if AUTOSTART_PATCH
 static const char autostartblocksh[]     = "autostart_blocking.sh";
-static const char autostartsh[]          = "autostart.sh";
+static const char autostartsh[]          = "dwm.sh";
 static const char dwmdir[]               = "dwm";
 static const char localshare[]           = ".local/share";
 #endif // AUTOSTART_PATCH
