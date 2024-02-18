@@ -126,6 +126,7 @@ alias nvidia-disable='sudo rmmod nvidia_modeset nvidia_uvm nvidia && echo "NVIDI
 alias looking-glass='looking-glass-client -m 97 -c DXGI'
 alias rmallgitdir='rm -rf .git*'
 alias r='ranger'
+alias neo='neofetch'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
