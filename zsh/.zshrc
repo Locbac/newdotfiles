@@ -107,27 +107,38 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # neofetch
+## LISTING
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+## NALA
 alias ni='sudo nala install'
+alias nr='sudo nala remove'
 alias na='sudo nala update'
 alias nu='sudo nala upgrade'
+alias nf='sudo nala fetch'
+alias nrr='sudo nala clean && sudo nala autoremove && sudo nala autopurge'
+## MAKE
 alias smci='sudo make clean install'
 alias smi='sudo make install'
+## GIT
 alias gpf='git add . && git commit -m "push" && git push'
+alias gc='git clone'
+## SHUTDOWN REBOOT
 alias ssn='sudo shutdown now'
 alias sr='sudo reboot'
+## SCRIPTS
 alias tg='~/clones/grayscale-desktop/toggle-monitor-grayscale.sh'
+## MISC
 alias sme='sudo chmod +x'
+alias rmallgitdir='rm -rf .git*'
+alias neo='neofetch'
+alias r='ranger'
+## VMs
 alias hows-my-gpu='echo "NVIDIA Dedicated Graphics" | grep "NVIDIA" && lspci -nnk | grep "NVIDIA Corporation GA107M" -A 2 | grep "Kernel driver in use" && echo "Intel Integrated Graphics" | grep "Intel" && lspci -nnk | grep "Intel.*Integrated Graphics Controller" -A 3 | grep "Kernel driver in use" && echo "Enable and disable the dedicated NVIDIA GPU with nvidia-enable and nvidia-disable"'
 alias nvidia-enable='sudo virsh nodedev-reattach pci_0000_01_00_0 && echo "GPU reattached (now host ready)" && sudo rmmod vfio_pci vfio_pci_core vfio_iommu_type1 && echo "VFIO drivers removed" && sudo modprobe -i nvidia_modeset nvidia_uvm nvidia && echo "NVIDIA drivers added" && echo "COMPLETED!"'
 alias nvidia-disable='sudo rmmod nvidia_modeset nvidia_uvm nvidia && echo "NVIDIA drivers removed" && sudo modprobe -i vfio_pci vfio_pci_core vfio_iommu_type1 && echo "VFIO drivers added" && sudo virsh nodedev-detach pci_0000_01_00_0 && echo "GPU detached (now vfio ready)" && echo "COMPLETED!"'
 alias looking-glass='looking-glass-client -m 97 -c DXGI'
-alias rmallgitdir='rm -rf .git*'
-alias r='ranger'
-alias neo='neofetch'
-alias gc='git clone'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
