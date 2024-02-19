@@ -917,6 +917,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
 	{ MODKEY|ShiftMask,             XK_l,          spawn,                  {.v = slockcmd} },
+	{ Mod4Mask|ShiftMask,           XK_l,          spawn,                  SHCMD("systemctl suspend")},
 	{ Mod4Mask|ControlMask,         XK_g,          spawn,                  SHCMD("$HOME/clones/grayscale-desktop/toggle-monitor-grayscale.sh -g")},
 	{ Mod4Mask|ControlMask,         XK_c,          spawn,                  SHCMD("$HOME/clones/grayscale-desktop/toggle-monitor-grayscale.sh -c") },
 	/* { 0,                            XF86XK_AudioMute,          spawn,      {.v = mutecmd} }, */
