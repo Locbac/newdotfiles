@@ -13,7 +13,7 @@ if amixer -c 1 info >/dev/null 2>&1; then
 else
 	# Card 1 doesn't exist
 	output=$(amixer -c 0 sget Master)
-	percentage=$(amixer sget Master | awk -F"[][]" '/Front Left:/ {print $2}')
+	percentage=$(amixer -c 0 sget Master | awk -F'[][]' '/Mono: Playback/ {print $2}')
 	if [[ $output == *"[off]"* ]]; then
 		echo "Mute"
 	else
