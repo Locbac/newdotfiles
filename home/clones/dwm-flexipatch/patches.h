@@ -96,7 +96,7 @@
  * https://gitlab.com/udiboy1209-suckless/dwm/-/commit/071f5063e8ac4280666828179f92788d893eea40#4b1a539194be7467cefbda22f675a3b7c19ceca7
  * https://dwm.suckless.org/patches/statuscolors/
  */
-#define BAR_POWERLINE_STATUS_PATCH 1
+#define BAR_POWERLINE_STATUS_PATCH 0
 
 /* Adds powerline arrows for the tags.
  * https://gitlab.com/udiboy1209-suckless/dwm/-/commit/071f5063e8ac4280666828179f92788d893eea40#4b1a539194be7467cefbda22f675a3b7c19ceca7
@@ -104,7 +104,7 @@
 #define BAR_POWERLINE_TAGS_PATCH 1
 
 /* Alters the tags powerline to use forward slash instead of arrows */
-#define BAR_POWERLINE_TAGS_SLASH_PATCH 0
+#define BAR_POWERLINE_TAGS_SLASH_PATCH 1
 
 /* This patch turns the titlebar area into a mfact-respecting tabbar showing each client's title.
  * https://dwm.suckless.org/patches/bartabgroups/
