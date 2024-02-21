@@ -59,8 +59,8 @@ static const int toptab                  = False;               /* False means b
 static const int bar_height              = 0;   /* 0 means derive from font, >= 1 explicit height */
 #endif // BAR_HEIGHT_PATCH
 #if BAR_PADDING_PATCH
-static const int vertpad                 = 8;  /* vertical padding of bar */
-static const int sidepad                 = 8;  /* horizontal padding of bar */
+static const int vertpad                 = 5;  /* vertical padding of bar */
+static const int sidepad                 = 5;  /* horizontal padding of bar */
 #endif // BAR_PADDING_PATCH
 #if BAR_WINICON_PATCH
 #define ICONSIZE 20    /* icon size */
@@ -914,7 +914,7 @@ static const Key keys[] = {
   /* LOCBAC */
 	{ MODKEY,                       XK_r,          spawn,                  {.v = rofishowcmd} },
 	{ Mod1Mask,                     XK_space,      spawn,                  {.v = rofishowcmd} },
-	{ MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} },
+	/* { MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} }, */
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
 	{ Mod4Mask|ShiftMask,           XK_l,          spawn,                  {.v = slockcmd} },
 	{ Mod4Mask|ControlMask,         XK_l,          spawn,                  SHCMD("systemctl suspend")},
