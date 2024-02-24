@@ -34,6 +34,9 @@ sudo tlp start
 # clipboard manager
 copyq &
 
+# tasks
+clickup &
+
 # Xinput
 $HOME/proj/home/xinput.sh
 
