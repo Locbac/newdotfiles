@@ -1,4 +1,4 @@
-# Install script for directory: /home/amon/Downloads/looking-glass-B6-260-b1313980/client
+# Install script for directory: /home/amon/clones/looking-glass-B6-260-b1313980/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -42,14 +42,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinaryx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "binary" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/looking-glass-client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/looking-glass-client")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/looking-glass-client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/looking-glass-client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/looking-glass-client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/looking-glass-client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/looking-glass-client")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -60,13 +60,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/resources/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/LGMP/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/PureSpice/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/renderers/cmake_install.cmake")
-  include("/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/audiodevs/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/resources/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/common/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/LGMP/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/PureSpice/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/displayservers/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/renderers/cmake_install.cmake")
+  include("/home/amon/clones/looking-glass-B6-260-b1313980/client/build/audiodevs/cmake_install.cmake")
 
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

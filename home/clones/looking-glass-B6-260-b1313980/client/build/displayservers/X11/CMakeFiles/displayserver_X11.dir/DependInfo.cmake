@@ -8,19 +8,20 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/atoms.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/atoms.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/atoms.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/clipboard.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/clipboard.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/clipboard.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/cursor.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/cursor.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/cursor.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/wm/default.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/default.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/default.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/wm/i3.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/i3.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/i3.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/X11/x11.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/x11.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/x11.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/atoms.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/atoms.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/atoms.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/clipboard.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/clipboard.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/clipboard.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/cursor.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/cursor.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/cursor.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/wm/default.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/default.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/default.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/wm/i3.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/i3.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/wm/i3.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/X11/x11.c" "displayservers/X11/CMakeFiles/displayserver_X11.dir/x11.c.o" "gcc" "displayservers/X11/CMakeFiles/displayserver_X11.dir/x11.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/resources/CMakeFiles/lg_resources.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

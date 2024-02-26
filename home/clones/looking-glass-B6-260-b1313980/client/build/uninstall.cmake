@@ -1,10 +1,10 @@
 # Uninstall file from https://gitlab.kitware.com/cmake/community/-/wikis/FAQ#can-i-do-make-uninstall-with-cmake
 
-if(NOT EXISTS "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/install_manifest.txt")
+if(NOT EXISTS "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/amon/clones/looking-glass-B6-260-b1313980/client/build/install_manifest.txt")
 endif()
 
-file(READ "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/install_manifest.txt" files)
+file(READ "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

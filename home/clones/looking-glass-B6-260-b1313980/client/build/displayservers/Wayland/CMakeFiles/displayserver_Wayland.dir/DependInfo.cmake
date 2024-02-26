@@ -8,28 +8,27 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/activation.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/activation.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/activation.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/clipboard.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/clipboard.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/clipboard.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/cursor.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/cursor.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/cursor.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/gl.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/gl.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/gl.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/idle.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/idle.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/idle.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/input.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/input.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/input.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/output.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/output.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/output.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/poll.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/poll.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/poll.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/presentation.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/presentation.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/presentation.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/registry.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/registry.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/registry.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/state.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/state.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/state.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/wayland.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/wayland.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/wayland.c.o.d"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/window.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/window.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/window.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/activation.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/activation.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/activation.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/clipboard.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/clipboard.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/clipboard.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/cursor.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/cursor.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/cursor.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/gl.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/gl.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/gl.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/idle.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/idle.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/idle.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/input.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/input.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/input.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/output.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/output.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/output.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/poll.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/poll.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/poll.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/presentation.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/presentation.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/presentation.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/registry.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/registry.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/registry.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/state.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/state.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/state.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/wayland.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/wayland.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/wayland.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/window.c" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/window.c.o" "gcc" "displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/window.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/protocol/CMakeFiles/wayland_protocol.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/desktops/CMakeFiles/wayland_desktops.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

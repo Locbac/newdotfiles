@@ -8,14 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/displayservers/Wayland/desktops/xdg/xdg.c" "displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/xdg.c.o" "gcc" "displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/xdg.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/displayservers/Wayland/desktops/xdg/xdg.c" "displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/xdg.c.o" "gcc" "displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/xdg.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/protocol/CMakeFiles/wayland_protocol.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -1,0 +1,2 @@
+#define LG_VERSION_STR "B6"
+#define LG_CURRENT_YEAR 2024

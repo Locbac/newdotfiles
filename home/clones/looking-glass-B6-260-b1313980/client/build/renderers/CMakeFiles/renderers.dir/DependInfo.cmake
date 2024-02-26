@@ -8,16 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/src/renderers.c" "renderers/CMakeFiles/renderers.dir/__/src/renderers.c.o" "gcc" "renderers/CMakeFiles/renderers.dir/__/src/renderers.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/src/renderers.c" "renderers/CMakeFiles/renderers.dir/__/src/renderers.c.o" "gcc" "renderers/CMakeFiles/renderers.dir/__/src/renderers.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/renderers/EGL/CMakeFiles/renderer_EGL.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/renderers/OpenGL/CMakeFiles/renderer_OpenGL.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/cimgui/CMakeFiles/cimgui.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

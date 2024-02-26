@@ -8,19 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/src/displayservers.c" "displayservers/CMakeFiles/displayservers.dir/__/src/displayservers.c.o" "gcc" "displayservers/CMakeFiles/displayservers.dir/__/src/displayservers.c.o.d"
+  "/home/amon/clones/looking-glass-B6-260-b1313980/client/build/src/displayservers.c" "displayservers/CMakeFiles/displayservers.dir/__/src/displayservers.c.o" "gcc" "displayservers/CMakeFiles/displayservers.dir/__/src/displayservers.c.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/X11/CMakeFiles/displayserver_X11.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/desktops/CMakeFiles/wayland_desktops.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/desktops/xdg/CMakeFiles/wayland_desktop_xdg.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/displayservers/Wayland/protocol/CMakeFiles/wayland_protocol.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
-  "/home/amon/Downloads/looking-glass-B6-260-b1313980/client/build/resources/CMakeFiles/lg_resources.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
