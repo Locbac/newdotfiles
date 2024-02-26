@@ -119,7 +119,8 @@ alias nu='sudo nala upgrade'
 alias nf='sudo nala fetch'
 alias nrr='sudo nala clean && sudo nala autoremove && sudo nala autopurge'
 ## PACMAN
-alias pi='sudo pacman -Sy'
+alias pci='sudo pacman -Sy'
+alias pcr='sudo pacman -R'
 ## MAKE
 alias smci='sudo make clean install'
 alias smi='sudo make install'
