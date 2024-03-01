@@ -39,12 +39,23 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   )
 
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/amon/clones/looking-glass-B6/client/build/resources/CMakeFiles/lg_resources.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/common/CMakeFiles/lg_common.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/displayservers/CMakeFiles/displayservers.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/LGMP/CMakeFiles/lgmp.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/PureSpice/CMakeFiles/purespice.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/renderers/CMakeFiles/renderers.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/cimgui/CMakeFiles/cimgui.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/audiodevs/CMakeFiles/audiodevs.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/displayservers/Wayland/CMakeFiles/displayserver_Wayland.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/displayservers/X11/CMakeFiles/displayserver_X11.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/renderers/EGL/CMakeFiles/renderer_EGL.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/renderers/OpenGL/CMakeFiles/renderer_OpenGL.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/audiodevs/PipeWire/CMakeFiles/audiodev_PipeWire.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/audiodevs/PulseAudio/CMakeFiles/audiodev_PulseAudio.dir/DependInfo.cmake"
+  "/home/amon/clones/looking-glass-B6/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

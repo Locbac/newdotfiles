@@ -24,12 +24,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/amon/clones/looking-glass-B6/common/src/vector.c" "common/CMakeFiles/lg_common.dir/src/vector.c.o" "gcc" "common/CMakeFiles/lg_common.dir/src/vector.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/amon/clones/looking-glass-B6/client/build/common/src/platform/linux/CMakeFiles/lg_common_platform_code.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
