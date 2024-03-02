@@ -6,7 +6,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-export PATH=~/.local/bin:/usr/sbin:/opt/nvim-linux64/bin:$PATH
+# export PATH=~/.local/bin:/usr/sbin:/opt/nvim-linux64/bin:$PATH
+export PATH=~/.local/bin:/usr/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -143,6 +144,7 @@ alias looking-glass='looking-glass-client -m 97 -c DXGI'
 ## RUNNERS
 alias neo='neofetch'
 alias r='ranger'
+alias sur='sudo ranger'
 alias fr='flatpak run'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
