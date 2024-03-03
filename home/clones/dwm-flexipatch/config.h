@@ -162,11 +162,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #if BAR_PANGO_PATCH
 static const char font[]                 = "monospace 10";
 #else
-/* static const char *fonts[]               = { "monospace:size=10", "JetBrainsMonoNerdFont-Regular:size=11" }; */
-static const char *fonts[]               = { "JetBrainsMonoNerdFont-Regular:size=11" };
+static const char *fonts[]               = { "monospace:size=10", "JetBrainsMonoNerdFont-Regular:size=11" };
+/* static const char *fonts[]               = { "JetBrainsMonoNerdFont-Regular:size=11" }; */
 #endif // BAR_PANGO_PATCH
-/* static const char dmenufont[]            = "monospace:size=10"; */
-static const char dmenufont[]            = "JetBrainsMonoNerdFont-Regular:size=11";
+static const char dmenufont[]            = "monospace:size=10";
+/* static const char dmenufont[]            = "JetBrainsMonoNerdFont-Regular:size=11"; */
 
 static char c000000[]                    = "#000000"; // placeholder value
 
@@ -877,7 +877,7 @@ static const char *dmenucmd[] = {
 };
 static const char *termcmd[]  = { "st", "-e", "zsh", NULL };
 static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NULL };
-static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL };
+/* static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL }; */
 static const char *nautiluscmd[] = {"nautilus", "-w", NULL };
 static const char *slockcmd[] = {"slock", NULL };
 /* static const char *grayscalecmd[][] = {{"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-g", NULL}, {"/home/amon/proj/grayscale-desktop/toggle-monitor-grayscale.sh", "-c", NULL}, NULL} */
