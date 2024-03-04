@@ -100,6 +100,8 @@ alias smci='sudo make clean install'
 alias gpf='git add . && git commit -m "push" && git push'
 alias enc='sudo nvim /etc/nixos/configuration.nix'
 alias snor='sudo nixos-rebuild switch'
+alias ng='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
+alias nixclean='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system && sudo nix-collect-garbage --delete-older-than 7d && sudo nixos-rebuild switch'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

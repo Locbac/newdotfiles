@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Battery script for dwmblocks
 
 capacity=$(cat /sys/class/power_supply/BAT0/capacity)

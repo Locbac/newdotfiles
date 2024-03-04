@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'
 # percentage=$(echo $(echo "$output" | awk -F'[][]' '/Playback/ {print $2}') | sed '1,2d;$d')
 if amixer -c 1 info >/dev/null 2>&1; then

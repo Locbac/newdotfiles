@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 brightness_file="/sys/class/backlight/intel_backlight/brightness"
 max_brightness=12000

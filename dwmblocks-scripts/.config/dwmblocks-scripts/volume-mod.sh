@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if card 1 exists
 if amixer -c 1 info >/dev/null 2>&1; then
