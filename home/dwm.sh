@@ -14,7 +14,7 @@ picom &
 # slstatus &
 
 # DWMBLOCKS
-dwmblocks &
+steam-run dwmblocks &
 
 # Execute layout.sh script
 $HOME/.screenlayout/layout.sh
