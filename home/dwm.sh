@@ -27,7 +27,7 @@ sleep 0.5
 feh --bg-fill $HOME/wallpapers/grayscale-macos-mojave-night-lightened-r.jpg
 
 # lx appearance
-lxappearance &
+#lxappearance &
 
 # battery
 sudo tlp start
