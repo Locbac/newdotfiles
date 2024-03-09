@@ -14,7 +14,8 @@ picom &
 # slstatus &
 
 # DWMBLOCKS
-steam-run dwmblocks &
+#steam-run dwmblocks &
+dwmblocks &
 
 # Execute layout.sh script
 $HOME/.screenlayout/layout.sh
@@ -52,3 +53,6 @@ else
 fi
 # grayscale
 $HOME/proj/home/clones/grayscale-desktop/toggle-monitor-grayscale.sh -g
+
+# nm-applet
+nm-applet &
