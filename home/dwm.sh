@@ -18,7 +18,7 @@ picom &
 dwmblocks &
 
 # Execute layout.sh script
-$HOME/.screenlayout/layout.sh
+$HOME/.screenlayout/integrated.sh
 
 # Wait for layout to finish
 sleep 0.5
