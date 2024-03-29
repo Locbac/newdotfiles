@@ -876,7 +876,7 @@ static const char *dmenucmd[] = {
 	NULL
 };
 static const char *termcmd[]  = { "kitty", NULL };
-static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NULL };
+/* static const char *rofishowcmd[] = {"rofi", "-show", "combi", "-show-icons", NULL }; */
 /* static const char *rofiswitchcmd[] = {"rofi", "-show", "window", "-show-icons", NULL }; */
 static const char *nautiluscmd[] = {"nautilus", "-w", NULL };
 static const char *slockcmd[] = {"sudo", "slock", NULL };
@@ -913,8 +913,8 @@ static const Key on_empty_keys[] = {
 static const Key keys[] = {
 	/* modifier                     key            function                argument */
   /* LOCBAC */
-	{ MODKEY,                       XK_r,          spawn,                  {.v = rofishowcmd} },
-	{ Mod1Mask,                     XK_space,      spawn,                  {.v = rofishowcmd} },
+	/* { MODKEY,                       XK_r,          spawn,                  {.v = rofishowcmd} }, */
+	/* { Mod1Mask,                     XK_space,      spawn,                  {.v = rofishowcmd} }, */
 	/* { MODKEY,                       XK_Tab,        spawn,                  {.v = rofiswitchcmd} }, */
 	{ MODKEY,                       XK_e,          spawn,                  {.v = nautiluscmd} },
 	{ Mod4Mask|ShiftMask,           XK_l,          spawn,                  {.v = slockcmd} },
